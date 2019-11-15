@@ -31,7 +31,7 @@
 #### 撤销
 
 * 用暂存区中的文件覆盖工作目录中的文件：`` git checkout ``
-* 将文件从暂存区中删除：`` git rm --cached 文件 ``
+* 将文件从暂存区中删除：`` git rm --cached 文件名 ``
 * 将git仓库中指定的更新记录恢复出来，并且覆盖暂存区和工作目录：`` git reset --hard commitID``  
 
 #### 修改git commit信息中的author
