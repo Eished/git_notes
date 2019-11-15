@@ -10,7 +10,7 @@
 
 1. 配置姓名 `` $ git config --global user.name xxxx ``
 
-2. 配置邮箱 $ git config --global user.email xxxx@xxxx.com
+2. 配置邮箱 ` $ git config --global user.email xxxx@xxxx.com `
 
 3. 查看配置是否成功 `` $ git config --list ``  
 
@@ -22,7 +22,7 @@
 
 #### 修改git commit信息中的author
 
-1. 使用--amend 修改 author 
+1. 使用--amend 修改 author：
 
    `` git commit --amend --author=‘xxx <xxxx@xxx.xxx>’ ``
 
@@ -141,11 +141,11 @@ git中可以不提交更改，只提取分支上所有改动并储存，让开�
 
 1. 生成密钥：` ssh-keygen`
 
-   密匙储存目录：C:\User\用户\\.ssh
+   密匙储存目录：` C:\User\用户\\.ssh`
 
-   公钥名称：id_rsa.pub
+   公钥名称：` id_rsa.pub` 
 
-   私钥名称：id_rsa
+   私钥名称：` id_rsa`
 
 2.  Github添加公钥
 
