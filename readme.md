@@ -20,14 +20,6 @@
 
 2. 也可直接修改 `` C:\Users\用户\.gitconfig ``
 
-#### 修改git commit信息中的author
-
-1. 使用--amend 修改 author：
-
-   `` git commit --amend --author=‘xxx <xxxx@xxx.xxx>’ ``
-
-2. 输入`` git rebase --continue  ``结束修改
-
 #### 提交步骤
 
 1. `` git init `` 初始化git仓库
@@ -39,8 +31,16 @@
 #### 撤销
 
 * 用暂存区中的文件覆盖工作目录中的文件：`` git checkout ``
-* 将文件从暂存区中删除：`` git rm --cached `` 文件
+* 将文件从暂存区中删除：`` git rm --cached 文件 ``
 * 将git仓库中指定的更新记录恢复出来，并且覆盖暂存区和工作目录：`` git reset --hard commitID``  
+
+#### 修改git commit信息中的author
+
+1. 使用 --amend 修改 author：
+
+   `` git commit --amend --author=‘xxx <xxxx@xxx.xxx>’ ``
+
+2. 输入`` git rebase --continue  ``结束修改
 
 ## Git进阶 
 
@@ -131,8 +131,8 @@ git中可以不提交更改，只提取分支上所有改动并储存，让开�
 ### 跨团队协作
 
 1. ` fork`到自己的远程仓库
-2. 克隆到本地进行修改
-3. 推送到远程仓库
+2. ` clone`到本地进行修改
+3. ` push`到远程仓库
 4. ` pull request`发送给原作者
 5. 原作者查看` commit ` 审核
 6. 原作者 ` merge pull request` 
