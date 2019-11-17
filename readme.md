@@ -106,7 +106,7 @@ git中可以不提交更改，只提取分支上所有改动并储存，让开�
 
 4. ` git remote add 远程仓库地址别名 远程仓库地址 `
 
-5. `  git remote rm origin ` 删除别名 就看可以重新添加
+5. 删除别名：`  git remote remove 远程仓库地址别名  `
 
 6. 第一次提交需要用户名和密码，电脑会记住密码在凭据管理器，第二次就不用了。
 
@@ -157,11 +157,9 @@ git中可以不提交更改，只提取分支上所有改动并储存，让开�
 
    ![](git_notes/20191115170348.png)
 
-4. 设置ssh别名：`$ git remote add origin_ssh SSH地址 ` ， ` origin_ssh `是别名
+4. 设置ssh别名：`$ git remote add origin_ssh SSH地址 ` 
 
 5. 远程推送：` $ git push origin_ssh master` 
-
-   注：删除别名：`  git remote remove 别名  `
 
 ### Git忽略清单
 
