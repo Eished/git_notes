@@ -8,7 +8,7 @@
 
 - 下载地址： https://git-scm.com/downloads
 - 使用默认值安装
-- 单击鼠标右键选择 ` Git Bash Here `
+- 资源管理器内单击鼠标右键选择 ` Git Bash Here `
 - 输入` git --version ` 检查是否安装成功
 
 ### Git 基本工作流程
